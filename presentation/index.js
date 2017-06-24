@@ -121,25 +121,19 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]} bgColor="blue" textColor="white">
           <Heading size={4} textColor="purple" caps>Back End</Heading>
           <List>
-            <ListItem>
-              <Text textColor="lightblue">Slack API</Text>
-              <Text textColor="white">- Incoming webhooks and slash commands</Text>
+            <ListItem>Slack API - Incoming webhooks and slash commands
             </ListItem>
             <ListItem>
-              <Text textColor="lightblue">Express JS</Text>
-              <Text textColor="white">- Server-side Rendering and API Routes</Text>
+              Express JS - Server-side Rendering and API Routes
             </ListItem>
             <ListItem>
-              <Text textColor="lightblue">Superagent</Text>
-              <Text textColor="white">- RESTful Communication between Microservices</Text>
+              Superagent - RESTful Communication between Microservices
             </ListItem>
             <ListItem>
-              <Text textColor="lightblue">Socket.io</Text>
-              <Text textColor="white">- Push Communication to Client</Text>
+              Socket.io - Push Communication to Client
             </ListItem>
             <ListItem>
-              <Text textColor="lightblue">Mongo DB</Text>
-              <Text textColor="white">Database Storage</Text>
+              Mongo DB - Database Storage
             </ListItem>
           </List>
         </Slide>
